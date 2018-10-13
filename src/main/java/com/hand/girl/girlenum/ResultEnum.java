@@ -5,8 +5,8 @@ import lombok.Data;
 public enum  ResultEnum {
     UNKNOWN(-1,"系统异常"),
     SUCCESS(1,"成功了"), 
-    M_SCHOOL(100,"还在上小学ff"),
-    H_SCHOOL(10,"还在上中学");
+    M_SCHOOL(100,"还在上小学"),
+    H_SCHOOL(10,"还在上中学多少");
     private Integer code;
     private String msg;
     ResultEnum(Integer code, String msg) {
